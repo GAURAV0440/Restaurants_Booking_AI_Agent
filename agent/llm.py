@@ -20,6 +20,7 @@ def clean_llm_output(text: str) -> str:
     text = re.sub(r'=\s*\w+\s*[{<].*?[}>]', '', text, flags=re.DOTALL)
     text = re.sub(r'<function.*?</function>', '', text, flags=re.DOTALL)
     text = re.sub(r'function=\w+>.*?\}', '', text, flags=re.DOTALL)
+    text = re.sub(r'/function\w+\{[^}]*\}/function', '', text, flags=re.DOTALL)
     text = re.sub(r'\{"cuisine":[^}]*\}', '', text)
     text = re.sub(r'\{"name":[^}]*\}', '', text)
     text = re.sub(r'\{"required":[^}]*\}', '', text)
@@ -176,6 +177,41 @@ def agent_reply(user_input, history):
         return clean_llm_output(format_tool_output(tool_name, output))
 
     content = msg.content or ""
+    
+    malformed_patterns = [
+        r'/function(\w+)\{([^}]+)\}/function',
+        r'<function.*?name="(\w+)".*?>\{([^}]+)\}</function>',
+        r'(\w+)\{([^}]+)\}',
+    ]
+    
+    for pattern in malformed_patterns:
+        match = re.search(pattern, content)
+        if match:
+            if len(match.groups()) >= 2:
+                tool_name = match.group(1)
+                args_str = match.group(2)
+                
+                if tool_name in ["search_restaurants", "create_reservation", "check_availability", "find_restaurant_by_name", "cancel_reservation", "update_reservation"]:
+                    try:
+                        args_str = "{" + args_str + "}"
+                        args = json.loads(args_str)
+                        
+                        if tool_name in ["create_reservation", "check_availability", "cancel_reservation"]:
+                            if "restaurant_id" in args and isinstance(args["restaurant_id"], str):
+                                args["restaurant_id"] = int(args["restaurant_id"])
+                            if "guests" in args and isinstance(args["guests"], str):
+                                args["guests"] = int(args["guests"])
+                            if "reservation_id" in args and isinstance(args["reservation_id"], str):
+                                args["reservation_id"] = int(args["reservation_id"])
+                        
+                        if tool_name == "search_restaurants":
+                            if "guests" in args and isinstance(args["guests"], str):
+                                args["guests"] = int(args["guests"])
+                        
+                        output = execute_tool(tool_name, args)
+                        return clean_llm_output(format_tool_output(tool_name, output))
+                    except:
+                        pass
     
     if any(tool_name in content for tool_name in ["search_restaurants", "create_reservation", "check_availability", "find_restaurant_by_name"]):
         
