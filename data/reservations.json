@@ -122,5 +122,25 @@
     "guests": 1,
     "phone_number": "+91-9875678765",
     "created_at": "2025-11-18T11:58:14.495542"
+  },
+  {
+    "reservation_id": 14,
+    "user_name": "Devasya",
+    "restaurant_id": 1,
+    "date": "25-11-2025",
+    "time": "5 pm",
+    "guests": 4,
+    "phone_number": "+91-8572055433",
+    "created_at": "2025-11-18T12:13:01.081428"
+  },
+  {
+    "reservation_id": 15,
+    "user_name": "Mcgeebury singh",
+    "restaurant_id": 2,
+    "date": "14-11-2025",
+    "time": "7pm",
+    "guests": 4,
+    "phone_number": "+91-8572048743",
+    "created_at": "2025-11-18T12:45:15.489848"
   }
 ]

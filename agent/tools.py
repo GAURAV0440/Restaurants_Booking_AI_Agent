@@ -16,8 +16,6 @@ def save_json(path, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
-# ---------------------- TOOL FUNCTIONS -------------------------
-
 def normalize(text):
     return text.lower().strip() if text else None
 
@@ -66,7 +64,6 @@ def recommend_restaurants(cuisine, guests):
     return {"results": results[:5]}
 
 def check_availability(restaurant_id, date, time):
-    # Validate date format (dd-mm-yyyy)
     try:
         datetime.strptime(date, "%d-%m-%Y")
     except ValueError:
@@ -88,11 +85,9 @@ def check_availability(restaurant_id, date, time):
     return {"available": False}
 
 def create_reservation(user_name, restaurant_id, date, time, guests, phone_number):
-    # Validate all required parameters are provided
     if not all([user_name, restaurant_id, date, time, guests, phone_number]):
         return {"success": False, "error": "Missing required booking information"}
     
-    # Validate date format (dd-mm-yyyy)
     try:
         datetime.strptime(date, "%d-%m-%Y")
     except ValueError:
@@ -145,12 +140,9 @@ def update_reservation(reservation_id, date=None, time=None, guests=None):
     return {"success": False, "message": "Reservation not found"}
 
 def find_restaurant_by_name(restaurant_name):
-    """Find restaurant ID by name with fuzzy matching"""
     restaurants = load_json(RESTAURANTS_FILE)
     
-    # Clean the input name
     search_name = restaurant_name.lower().strip()
-    # Remove common booking words
     search_name = search_name.replace("book", "").replace("table", "").replace("reservation", "").strip()
     
     matches = []
@@ -159,7 +151,6 @@ def find_restaurant_by_name(restaurant_name):
     for r in restaurants:
         restaurant_name_lower = r["name"].lower()
         
-        # Exact match (case-insensitive)
         if search_name == restaurant_name_lower:
             exact_matches.append({
                 "id": r["id"],
@@ -167,7 +158,6 @@ def find_restaurant_by_name(restaurant_name):
                 "cuisine": r["cuisine"],
                 "location": r["location"]
             })
-        # Fuzzy match - check if search term is in restaurant name OR restaurant name is in search term
         elif (search_name in restaurant_name_lower or 
               any(word in restaurant_name_lower for word in search_name.split() if len(word) > 2)):
             matches.append({
@@ -177,14 +167,12 @@ def find_restaurant_by_name(restaurant_name):
                 "location": r["location"]
             })
     
-    # Prefer exact matches
     if exact_matches:
         if len(exact_matches) == 1:
             return {"success": True, "restaurant": exact_matches[0]}
         else:
             return {"success": False, "message": "Multiple exact matches found", "matches": exact_matches}
     
-    # Use fuzzy matches
     if len(matches) == 1:
         return {"success": True, "restaurant": matches[0]}
     elif len(matches) > 1:
