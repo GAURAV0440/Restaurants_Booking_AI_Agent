@@ -1,0 +1,126 @@
+[
+  {
+    "reservation_id": 1,
+    "user_name": "John Doe",
+    "restaurant_id": 2,
+    "date": "2024-02-14",
+    "time": "7:00 PM",
+    "guests": 4,
+    "created_at": "2025-11-17T01:55:01.027234"
+  },
+  {
+    "reservation_id": 2,
+    "user_name": "gaurav",
+    "restaurant_id": 2,
+    "date": "2025-11-20",
+    "time": "6 pm",
+    "guests": 2,
+    "created_at": "2025-11-17T02:20:43.788779"
+  },
+  {
+    "reservation_id": 3,
+    "user_name": "gaurav",
+    "restaurant_id": 2,
+    "date": "2025-12-1",
+    "time": "6pm",
+    "guests": 2,
+    "created_at": "2025-11-17T02:30:07.095111"
+  },
+  {
+    "reservation_id": 4,
+    "user_name": "garuav",
+    "restaurant_id": 2,
+    "date": "2025-11-20",
+    "time": "6pm",
+    "guests": 2,
+    "created_at": "2025-11-17T02:39:13.702554"
+  },
+  {
+    "reservation_id": 5,
+    "user_name": "John Doe",
+    "restaurant_id": 2,
+    "date": "2024-02-14",
+    "time": "08:00 PM",
+    "guests": 4,
+    "created_at": "2025-11-17T11:14:42.384257"
+  },
+  {
+    "reservation_id": 6,
+    "user_name": "Gaurav Chawla",
+    "restaurant_id": 17,
+    "date": "2025-11-20",
+    "time": "18:00",
+    "guests": 4,
+    "created_at": "2025-11-17T23:07:06.352900"
+  },
+  {
+    "reservation_id": 7,
+    "user_name": "<user full name>",
+    "restaurant_id": 2,
+    "date": "<date>",
+    "time": "<time>",
+    "guests": 4,
+    "phone_number": "<phone number>",
+    "created_at": "2025-11-17T23:42:40.605110"
+  },
+  {
+    "reservation_id": 8,
+    "user_name": "John",
+    "restaurant_id": 17,
+    "date": "2024-01-01",
+    "time": "08:00 PM",
+    "guests": 4,
+    "phone_number": "+91-9999999999",
+    "created_at": "2025-11-17T23:47:08.602448"
+  },
+  {
+    "reservation_id": 9,
+    "user_name": "Gaurav Chawla",
+    "restaurant_id": 19,
+    "date": "2025-11-22",
+    "time": "not specified",
+    "guests": 2,
+    "phone_number": "+91-9875678743",
+    "created_at": "2025-11-18T00:26:48.768782"
+  },
+  {
+    "reservation_id": 10,
+    "user_name": "Nikhil Kumar",
+    "restaurant_id": 30,
+    "date": "2025-11-23",
+    "time": "3:00 PM",
+    "guests": 2,
+    "phone_number": "+91-7593842944",
+    "created_at": "2025-11-18T00:43:36.204686"
+  },
+  {
+    "reservation_id": 11,
+    "user_name": "Gaurav Chawla",
+    "restaurant_id": 16,
+    "date": "21-11-2025",
+    "time": "6pm",
+    "guests": 2,
+    "phone_number": "+91-8572058623",
+    "created_at": "2025-11-18T11:13:49.380880"
+  },
+  {
+    "reservation_id": 12,
+    "user_name": "Gaurav kumar",
+    "restaurant_id": 2,
+    "date": "25-12-2025",
+    "time": "19:00",
+    "guests": 4,
+    "phone_number": "+91-8572048723",
+    "created_at": "2025-11-18T11:24:41.238804"
+  },
+  {
+    "reservation_id": 13,
+    "user_name": "Gaurav Chawla",
+    "restaurant_id": 4,
+    "date": "21-12-2025",
+    "time": "7 pm",
+    "guests": 1,
+    "phone_number": "+91-9875678765",
+    "created_at": "2025-11-18T11:58:14.495542"
+  }
+]

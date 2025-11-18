@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "name": "The Spice Garden",
+    "cuisine": "Indian",
+    "location": "Downtown",
+    "seating_capacity": 80,
+    "available_tables": 12,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Bella Italia",
+    "cuisine": "Italian",
+    "location": "City Center",
+    "seating_capacity": 60,
+    "available_tables": 8,
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Sakura Blossom",
+    "cuisine": "Japanese",
+    "location": "East Side",
+    "seating_capacity": 50,
+    "available_tables": 6,
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Dragon Wok",
+    "cuisine": "Chinese",
+    "location": "Uptown",
+    "seating_capacity": 70,
+    "available_tables": 10,
+    "rating": 4.1
+  },
+  {
+    "id": 5,
+    "name": "Urban BBQ House",
+    "cuisine": "Barbecue",
+    "location": "West Market",
+    "seating_capacity": 90,
+    "available_tables": 15,
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "name": "Ocean Pearl",
+    "cuisine": "Seafood",
+    "location": "Harbor Road",
+    "seating_capacity": 65,
+    "available_tables": 7,
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "name": "Taco Fiesta",
+    "cuisine": "Mexican",
+    "location": "South Block",
+    "seating_capacity": 55,
+    "available_tables": 9,
+    "rating": 4.0
+  },
+  {
+    "id": 8,
+    "name": "Greek Soul Kitchen",
+    "cuisine": "Greek",
+    "location": "Old Town",
+    "seating_capacity": 45,
+    "available_tables": 5,
+    "rating": 4.3
+  },
+  {
+    "id": 9,
+    "name": "Le Paris Café",
+    "cuisine": "French",
+    "location": "Central Avenue",
+    "seating_capacity": 50,
+    "available_tables": 6,
+    "rating": 4.5
+  },
+  {
+    "id": 10,
+    "name": "The Steak Chamber",
+    "cuisine": "Steakhouse",
+    "location": "North Plaza",
+    "seating_capacity": 85,
+    "available_tables": 11,
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "name": "Veg Delight Hub",
+    "cuisine": "Vegetarian",
+    "location": "Green Park",
+    "seating_capacity": 40,
+    "available_tables": 4,
+    "rating": 4.2
+  },
+  {
+    "id": 12,
+    "name": "Korean Flame Grill",
+    "cuisine": "Korean",
+    "location": "Tech Park",
+    "seating_capacity": 70,
+    "available_tables": 10,
+    "rating": 4.4
+  },
+  {
+    "id": 13,
+    "name": "Thai Palm Bistro",
+    "cuisine": "Thai",
+    "location": "Riverside",
+    "seating_capacity": 60,
+    "available_tables": 7,
+    "rating": 4.3
+  },
+  {
+    "id": 14,
+    "name": "Mediterraneo House",
+    "cuisine": "Mediterranean",
+    "location": "Sunset Boulevard",
+    "seating_capacity": 75,
+    "available_tables": 12,
+    "rating": 4.4
+  },
+  {
+    "id": 15,
+    "name": "Burger Factory",
+    "cuisine": "Fast Food",
+    "location": "Market Lane",
+    "seating_capacity": 50,
+    "available_tables": 9,
+    "rating": 3.9
+  },
+  {
+    "id": 16,
+    "name": "Royal Biryani House",
+    "cuisine": "Indian",
+    "location": "East Market",
+    "seating_capacity": 65,
+    "available_tables": 10,
+    "rating": 4.5
+  },
+  {
+    "id": 17,
+    "name": "Pasta Avenue",
+    "cuisine": "Italian",
+    "location": "West End",
+    "seating_capacity": 55,
+    "available_tables": 8,
+    "rating": 4.1
+  },
+  {
+    "id": 18,
+    "name": "Noodle Heaven",
+    "cuisine": "Chinese",
+    "location": "Lakeside",
+    "seating_capacity": 60,
+    "available_tables": 7,
+    "rating": 4.2
+  },
+  {
+    "id": 19,
+    "name": "Bombay Street Food Co.",
+    "cuisine": "Indian",
+    "location": "Old City",
+    "seating_capacity": 45,
+    "available_tables": 5,
+    "rating": 4.0
+  },
+  {
+    "id": 20,
+    "name": "Waffle & Shake Hub",
+    "cuisine": "Desserts",
+    "location": "City Center",
+    "seating_capacity": 35,
+    "available_tables": 4,
+    "rating": 4.3
+  },
+  {
+    "id": 21,
+    "name": "Punjab Grill House",
+    "cuisine": "North Indian",
+    "location": "Sector 14",
+    "seating_capacity": 80,
+    "available_tables": 10,
+    "rating": 4.5
+  },
+  {
+    "id": 22,
+    "name": "Hyderabadi Spice Pot",
+    "cuisine": "South Indian",
+    "location": "Ring Road",
+    "seating_capacity": 70,
+    "available_tables": 9,
+    "rating": 4.4
+  },
+  {
+    "id": 23,
+    "name": "The Dumpling House",
+    "cuisine": "Chinese",
+    "location": "Cultural Street",
+    "seating_capacity": 50,
+    "available_tables": 6,
+    "rating": 4.1
+  },
+  {
+    "id": 24,
+    "name": "Taste of Turkey",
+    "cuisine": "Turkish",
+    "location": "Hill View",
+    "seating_capacity": 65,
+    "available_tables": 8,
+    "rating": 4.2
+  },
+  {
+    "id": 25,
+    "name": "Moroccan Spice Oasis",
+    "cuisine": "Moroccan",
+    "location": "Desert Lane",
+    "seating_capacity": 55,
+    "available_tables": 7,
+    "rating": 4.3
+  },
+  {
+    "id": 26,
+    "name": "Curry Leaf Kitchen",
+    "cuisine": "Indian",
+    "location": "Gandhi Square",
+    "seating_capacity": 75,
+    "available_tables": 9,
+    "rating": 4.4
+  },
+  {
+    "id": 27,
+    "name": "Sushi Avenue",
+    "cuisine": "Japanese",
+    "location": "Metro Line",
+    "seating_capacity": 40,
+    "available_tables": 5,
+    "rating": 4.6
+  },
+  {
+    "id": 28,
+    "name": "American Diner 24x7",
+    "cuisine": "American",
+    "location": "Airport Road",
+    "seating_capacity": 90,
+    "available_tables": 14,
+    "rating": 4.1
+  },
+  {
+    "id": 29,
+    "name": "Falafel Street",
+    "cuisine": "Middle Eastern",
+    "location": "Food Plaza",
+    "seating_capacity": 60,
+    "available_tables": 8,
+    "rating": 4.2
+  },
+  {
+    "id": 30,
+    "name": "Tapas & Wine Lounge",
+    "cuisine": "Spanish",
+    "location": "High Street",
+    "seating_capacity": 45,
+    "available_tables": 6,
+    "rating": 4.5
+  },
+  {
+    "id": 31,
+    "name": "Green Bowl Café",
+    "cuisine": "Healthy",
+    "location": "Fitness Lane",
+    "seating_capacity": 35,
+    "available_tables": 5,
+    "rating": 4.2
+  },
+  {
+    "id": 32,
+    "name": "Epic Ramen Hub",
+    "cuisine": "Japanese",
+    "location": "Station Road",
+    "seating_capacity": 50,
+    "available_tables": 7,
+    "rating": 4.4
+  },
+  {
+    "id": 33,
+    "name": "BBQ Pit Stop",
+    "cuisine": "Barbecue",
+    "location": "Industrial Area",
+    "seating_capacity": 85,
+    "available_tables": 12,
+    "rating": 4.3
+  },
+  {
+    "id": 34,
+    "name": "Shaan-e-Mughlai",
+    "cuisine": "Mughlai",
+    "location": "Heritage Street",
+    "seating_capacity": 75,
+    "available_tables": 10,
+    "rating": 4.5
+  },
+  {
+    "id": 35,
+    "name": "South Thali Corner",
+    "cuisine": "South Indian",
+    "location": "Temple Road",
+    "seating_capacity": 45,
+    "available_tables": 5,
+    "rating": 4.3
+  },
+  {
+    "id": 36,
+    "name": "African Grill Café",
+    "cuisine": "African",
+    "location": "Safari Road",
+    "seating_capacity": 55,
+    "available_tables": 7,
+    "rating": 4.1
+  },
+  {
+    "id": 37,
+    "name": "Russian Feast Club",
+    "cuisine": "Russian",
+    "location": "Embassy Road",
+    "seating_capacity": 70,
+    "available_tables": 9,
+    "rating": 4.0
+  },
+  {
+    "id": 38,
+    "name": "Persian Royal Dining",
+    "cuisine": "Persian",
+    "location": "Silver Lane",
+    "seating_capacity": 65,
+    "available_tables": 8,
+    "rating": 4.4
+  },
+  {
+    "id": 39,
+    "name": "The Sushi Boat",
+    "cuisine": "Japanese",
+    "location": "Harbor Road",
+    "seating_capacity": 40,
+    "available_tables": 4,
+    "rating": 4.5
+  },
+  {
+    "id": 40,
+    "name": "Brazilian Steak Hub",
+    "cuisine": "Brazilian",
+    "location": "Carnival Plaza",
+    "seating_capacity": 90,
+    "available_tables": 13,
+    "rating": 4.6
+  },
+  {
+    "id": 41,
+    "name": "Pho Noodle Corner",
+    "cuisine": "Vietnamese",
+    "location": "Lotus Square",
+    "seating_capacity": 55,
+    "available_tables": 7,
+    "rating": 4.3
+  },
+  {
+    "id": 42,
+    "name": "Belgian Waffle Works",
+    "cuisine": "Desserts",
+    "location": "Central Mall",
+    "seating_capacity": 40,
+    "available_tables": 5,
+    "rating": 4.4
+  },
+  {
+    "id": 43,
+    "name": "Caribbean Spice Bar",
+    "cuisine": "Caribbean",
+    "location": "Island Street",
+    "seating_capacity": 65,
+    "available_tables": 9,
+    "rating": 4.2
+  },
+  {
+    "id": 44,
+    "name": "German Beer Hall",
+    "cuisine": "German",
+    "location": "Brewery Road",
+    "seating_capacity": 100,
+    "available_tables": 15,
+    "rating": 4.3
+  },
+  {
+    "id": 45,
+    "name": "Nepalese Mountain Café",
+    "cuisine": "Nepalese",
+    "location": "Summit Way",
+    "seating_capacity": 40,
+    "available_tables": 6,
+    "rating": 4.2
+  },
+  {
+    "id": 46,
+    "name": "Indonesian Spice Hut",
+    "cuisine": "Indonesian",
+    "location": "Palm Avenue",
+    "seating_capacity": 55,
+    "available_tables": 8,
+    "rating": 4.1
+  },
+  {
+    "id": 47,
+    "name": "Cuban Mojo Café",
+    "cuisine": "Cuban",
+    "location": "Havana Street",
+    "seating_capacity": 45,
+    "available_tables": 6,
+    "rating": 4.0
+  },
+  {
+    "id": 48,
+    "name": "Swedish Meatball House",
+    "cuisine": "Swedish",
+    "location": "Nordic Lane",
+    "seating_capacity": 50,
+    "available_tables": 7,
+    "rating": 4.1
+  },
+  {
+    "id": 49,
+    "name": "Ethiopian Flavor Point",
+    "cuisine": "Ethiopian",
+    "location": "Tribal Square",
+    "seating_capacity": 55,
+    "available_tables": 8,
+    "rating": 4.3
+  },
+  {
+    "id": 50,
+    "name": "Lebanese Mezze House",
+    "cuisine": "Lebanese",
+    "location": "Mediterranean Street",
+    "seating_capacity": 60,
+    "available_tables": 9,
+    "rating": 4.4
+  },
+  {
+    "id": 51,
+    "name": "Hawaiian Grill Shack",
+    "cuisine": "Hawaiian",
+    "location": "Beach Road",
+    "seating_capacity": 70,
+    "available_tables": 10,
+    "rating": 4.2
+  },
+  {
+    "id": 52,
+    "name": "Singapore Wok House",
+    "cuisine": "Singaporean",
+    "location": "Canal Street",
+    "seating_capacity": 45,
+    "available_tables": 6,
+    "rating": 4.1
+  },
+  {
+    "id": 53,
+    "name": "Austrian Alps Café",
+    "cuisine": "Austrian",
+    "location": "Snow View Road",
+    "seating_capacity": 50,
+    "available_tables": 7,
+    "rating": 4.2
+  },
+  {
+    "id": 54,
+    "name": "Brazilian Samba Kitchen",
+    "cuisine": "Brazilian",
+    "location": "Carnival Avenue",
+    "seating_capacity": 85,
+    "available_tables": 12,
+    "rating": 4.4
+  },
+  {
+    "id": 55,
+    "name": "Danish Pastry Yard",
+    "cuisine": "Desserts",
+    "location": "Baker Street",
+    "seating_capacity": 40,
+    "available_tables": 5,
+    "rating": 4.5
+  },
+  {
+    "id": 56,
+    "name": "Mexi-Grill Fiesta",
+    "cuisine": "Mexican",
+    "location": "Border Avenue",
+    "seating_capacity": 70,
+    "available_tables": 10,
+    "rating": 4.2
+  },
+  {
+    "id": 57,
+    "name": "Irish Heritage Pub",
+    "cuisine": "Irish",
+    "location": "Celtic Road",
+    "seating_capacity": 90,
+    "available_tables": 13,
+    "rating": 4.3
+  },
+  {
+    "id": 58,
+    "name": "Polish Pierogi Kitchen",
+    "cuisine": "Polish",
+    "location": "Old Square",
+    "seating_capacity": 45,
+    "available_tables": 6,
+    "rating": 4.1
+  },
+  {
+    "id": 59,
+    "name": "Syrian Saffron House",
+    "cuisine": "Syrian",
+    "location": "Heritage Road",
+    "seating_capacity": 55,
+    "available_tables": 8,
+    "rating": 4.4
+  },
+  {
+    "id": 60,
+    "name": "Ukrainian Comfort Diner",
+    "cuisine": "Ukrainian",
+    "location": "Unity Street",
+    "seating_capacity": 60,
+    "available_tables": 9,
+    "rating": 4.2
+  }
+]
