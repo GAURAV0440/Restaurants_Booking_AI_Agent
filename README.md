@@ -2,6 +2,10 @@
 
 An intelligent restaurant reservation system powered by AI that helps users find and book tables at restaurants across 40+ cuisines worldwide.
 
+## 🎥 Demo Video
+
+🎬 **Watch the live demo**: [Restaurant Booking AI Agent in Action](https://www.loom.com/share/694ebf8535e44f25b31aea4ea080fc4a)
+
 ## ✨ Features
 
 - **Multi-Cuisine Support**: Search across 40+ international cuisines including Italian, Indian, Japanese, Chinese, Mexican, Turkish, Thai, and many more
